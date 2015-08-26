@@ -13,6 +13,8 @@
 		A80ACED41B8BFA9F00923D6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80ACED31B8BFA9F00923D6B /* Images.xcassets */; };
 		A80ACED71B8BFA9F00923D6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80ACED51B8BFA9F00923D6B /* LaunchScreen.xib */; };
 		A80ACEE31B8BFA9F00923D6B /* BlurrySideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80ACEE21B8BFA9F00923D6B /* BlurrySideBarTests.swift */; };
+		A80ACEED1B8BFB4300923D6B /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80ACEEC1B8BFB4300923D6B /* SideBarTableViewController.swift */; };
+		A88433831B8C091400F08C40 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88433821B8C091400F08C40 /* SideBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A80ACEDC1B8BFA9F00923D6B /* BlurrySideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurrySideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80ACEE11B8BFA9F00923D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80ACEE21B8BFA9F00923D6B /* BlurrySideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurrySideBarTests.swift; sourceTree = "<group>"; };
+		A80ACEEC1B8BFB4300923D6B /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		A88433821B8C091400F08C40 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideBar.swift; path = ../SideBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		A80ACEC91B8BFA9E00923D6B /* BlurrySideBar */ = {
 			isa = PBXGroup;
 			children = (
+				A88433821B8C091400F08C40 /* SideBar.swift */,
 				A80ACECC1B8BFA9F00923D6B /* AppDelegate.swift */,
 				A80ACECE1B8BFA9F00923D6B /* ViewController.swift */,
+				A80ACEEC1B8BFB4300923D6B /* SideBarTableViewController.swift */,
 				A80ACED01B8BFA9F00923D6B /* Main.storyboard */,
 				A80ACED31B8BFA9F00923D6B /* Images.xcassets */,
 				A80ACED51B8BFA9F00923D6B /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80ACECF1B8BFA9F00923D6B /* ViewController.swift in Sources */,
+				A80ACEED1B8BFB4300923D6B /* SideBarTableViewController.swift in Sources */,
+				A88433831B8C091400F08C40 /* SideBar.swift in Sources */,
 				A80ACECD1B8BFA9F00923D6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				A80ACEE81B8BFA9F00923D6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80ACEE91B8BFA9F00923D6B /* Build configuration list for PBXNativeTarget "BlurrySideBarTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				A80ACEEB1B8BFA9F00923D6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
