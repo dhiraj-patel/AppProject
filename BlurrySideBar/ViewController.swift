@@ -10,36 +10,41 @@ import UIKit
 
 class ViewController: UIViewController, SideBarDelegate {
     
-    @IBOutlet weak var imageView: UIImageView!
+    //@IBOutlet weak var imageView: UIImageView!
     var sideBar:SideBar = SideBar()
-    
-    
+	
+	var containerView = UIView()
+	
+	var home = HomeViewController()
+	var upasanas = UpasanasViewController()
+	var bhajans = BhajansViewController()
+	
     override func viewDidLoad() {
         super.viewDidLoad()
+		
+		containerView.frame = self.view.frame
+		containerView.backgroundColor = UIColor.redColor()
+		NSLog("%@", containerView)
+		self.view.addSubview(containerView)
         
         sideBar = SideBar(sourceView: self.view, menuItems: ["Home","Upasanas","Bhajans","Stutis","Kaival Youth","About Us","Newsletter","Mandir News","Active Life"])
         sideBar.delegate = self
-        
-        
+		
+		containerView.addSubview(home.view)
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+	
     func sideBarDidSelectButtonAtIndex(index: Int) {
-        if index == 1 {
-            imageView.backgroundColor = UIColor.redColor()
-            imageView.image = nil
+        if index == 0 {
+			containerView.subviews.map({$0.removeFromSuperview()})
+			containerView.addSubview(home.view)
         }
-        else if index == 2 {
-            imageView.backgroundColor = UIColor.clearColor()
-            imageView.image = UIImage(named: "background2")
+		else if index == 1 {
+			containerView.subviews.map({$0.removeFromSuperview()})
+			containerView.addSubview(upasanas.view)
         }
-        else if index == 0 {
-            imageView.backgroundColor = UIColor.clearColor()
-            imageView.image = UIImage(named: "background2")
+		else if index == 2 {
+			containerView.subviews.map({$0.removeFromSuperview()})
+			containerView.addSubview(bhajans.view)
         }
         
     }
