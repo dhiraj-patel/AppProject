@@ -1,24 +1,20 @@
 //
-//  UpasanasViewController.swift
+//  MandirNewsViewController.swift
 //  BlurrySideBar
 //
-//  Created by Sebastian Cain on 8/29/15.
+//  Created by Dhiraj Patel on 8/29/15.
 //  Copyright (c) 2015 Dhiraj Patel. All rights reserved.
 //
 
 import UIKit
 
-class UpasanasViewController: UIViewController {
+class MandirNewsViewController: UIViewController {
 
     override func viewDidLoad() {
-		super.viewDidLoad()
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor.greenColor()
+
         
-        var bg = UIImage(named: "background")
-        var bgview = UIImageView(image: bg)
-        bgview.frame = self.view.frame
-        self.view.addSubview(bgview)
-		
-		self.view.backgroundColor = UIColor.grayColor()
 
         // Do any additional setup after loading the view.
     }

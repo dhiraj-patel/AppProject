@@ -1,25 +1,18 @@
 //
-//  UpasanasViewController.swift
+//  StutisViewController.swift
 //  BlurrySideBar
 //
-//  Created by Sebastian Cain on 8/29/15.
+//  Created by Dhiraj Patel on 8/29/15.
 //  Copyright (c) 2015 Dhiraj Patel. All rights reserved.
 //
 
 import UIKit
 
-class UpasanasViewController: UIViewController {
+class StutisViewController: UIViewController {
 
     override func viewDidLoad() {
-		super.viewDidLoad()
-        
-        var bg = UIImage(named: "background")
-        var bgview = UIImageView(image: bg)
-        bgview.frame = self.view.frame
-        self.view.addSubview(bgview)
-		
-		self.view.backgroundColor = UIColor.grayColor()
-
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor.redColor()
         // Do any additional setup after loading the view.
     }
 

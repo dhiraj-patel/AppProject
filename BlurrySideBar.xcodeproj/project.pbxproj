@@ -10,6 +10,12 @@
 		0A36BDB31B917BB800357A6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36BDB21B917BB800357A6F /* HomeViewController.swift */; };
 		0A36BDB51B917BD200357A6F /* UpasanasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36BDB41B917BD200357A6F /* UpasanasViewController.swift */; };
 		0A36BDB71B917BE400357A6F /* BhajansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36BDB61B917BE400357A6F /* BhajansViewController.swift */; };
+		A801C3451B929130008BC64F /* StutisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801C3441B929130008BC64F /* StutisViewController.swift */; };
+		A801C3491B9295EE008BC64F /* KaivalYouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801C3481B9295EE008BC64F /* KaivalYouthViewController.swift */; };
+		A801C34B1B92964F008BC64F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801C34A1B92964F008BC64F /* AboutUsViewController.swift */; };
+		A801C34D1B9296BC008BC64F /* NewsletterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801C34C1B9296BC008BC64F /* NewsletterViewController.swift */; };
+		A801C34F1B92973A008BC64F /* MandirNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801C34E1B92973A008BC64F /* MandirNewsViewController.swift */; };
+		A801C3511B9297A9008BC64F /* ActiveLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801C3501B9297A9008BC64F /* ActiveLifeViewController.swift */; };
 		A80ACECD1B8BFA9F00923D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80ACECC1B8BFA9F00923D6B /* AppDelegate.swift */; };
 		A80ACECF1B8BFA9F00923D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80ACECE1B8BFA9F00923D6B /* ViewController.swift */; };
 		A80ACED21B8BFA9F00923D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80ACED01B8BFA9F00923D6B /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 		0A36BDB21B917BB800357A6F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0A36BDB41B917BD200357A6F /* UpasanasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpasanasViewController.swift; sourceTree = "<group>"; };
 		0A36BDB61B917BE400357A6F /* BhajansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BhajansViewController.swift; sourceTree = "<group>"; };
+		A801C3441B929130008BC64F /* StutisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StutisViewController.swift; sourceTree = "<group>"; };
+		A801C3481B9295EE008BC64F /* KaivalYouthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaivalYouthViewController.swift; sourceTree = "<group>"; };
+		A801C34A1B92964F008BC64F /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		A801C34C1B9296BC008BC64F /* NewsletterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsletterViewController.swift; sourceTree = "<group>"; };
+		A801C34E1B92973A008BC64F /* MandirNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MandirNewsViewController.swift; sourceTree = "<group>"; };
+		A801C3501B9297A9008BC64F /* ActiveLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveLifeViewController.swift; sourceTree = "<group>"; };
 		A80ACEC71B8BFA9E00923D6B /* BlurrySideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurrySideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80ACECB1B8BFA9F00923D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80ACECC1B8BFA9F00923D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +110,12 @@
 				0A36BDB21B917BB800357A6F /* HomeViewController.swift */,
 				0A36BDB41B917BD200357A6F /* UpasanasViewController.swift */,
 				0A36BDB61B917BE400357A6F /* BhajansViewController.swift */,
+				A801C3441B929130008BC64F /* StutisViewController.swift */,
+				A801C3481B9295EE008BC64F /* KaivalYouthViewController.swift */,
+				A801C34A1B92964F008BC64F /* AboutUsViewController.swift */,
+				A801C34C1B9296BC008BC64F /* NewsletterViewController.swift */,
+				A801C34E1B92973A008BC64F /* MandirNewsViewController.swift */,
+				A801C3501B9297A9008BC64F /* ActiveLifeViewController.swift */,
 			);
 			path = BlurrySideBar;
 			sourceTree = "<group>";
@@ -227,10 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A801C3511B9297A9008BC64F /* ActiveLifeViewController.swift in Sources */,
+				A801C34B1B92964F008BC64F /* AboutUsViewController.swift in Sources */,
+				A801C3451B929130008BC64F /* StutisViewController.swift in Sources */,
 				0A36BDB31B917BB800357A6F /* HomeViewController.swift in Sources */,
+				A801C34D1B9296BC008BC64F /* NewsletterViewController.swift in Sources */,
 				A80ACECF1B8BFA9F00923D6B /* ViewController.swift in Sources */,
+				A801C3491B9295EE008BC64F /* KaivalYouthViewController.swift in Sources */,
 				0A36BDB71B917BE400357A6F /* BhajansViewController.swift in Sources */,
 				A80ACEED1B8BFB4300923D6B /* SideBarTableViewController.swift in Sources */,
+				A801C34F1B92973A008BC64F /* MandirNewsViewController.swift in Sources */,
 				A88433831B8C091400F08C40 /* SideBar.swift in Sources */,
 				0A36BDB51B917BD200357A6F /* UpasanasViewController.swift in Sources */,
 				A80ACECD1B8BFA9F00923D6B /* AppDelegate.swift in Sources */,

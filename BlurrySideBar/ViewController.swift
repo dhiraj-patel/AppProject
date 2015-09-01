@@ -18,7 +18,13 @@ class ViewController: UIViewController, SideBarDelegate {
 	var home = HomeViewController()
 	var upasanas = UpasanasViewController()
 	var bhajans = BhajansViewController()
-	
+	var stutis = StutisViewController()
+    var kaivalyouth = KaivalYouthViewController()
+    var aboutus = AboutUsViewController()
+    var newsletter = NewsletterViewController()
+    var mandirnews = MandirNewsViewController()
+    var activelife = ActiveLifeViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 		
@@ -46,6 +52,34 @@ class ViewController: UIViewController, SideBarDelegate {
 			containerView.subviews.map({$0.removeFromSuperview()})
 			containerView.addSubview(bhajans.view)
         }
+        else if index == 3 {
+            containerView.subviews.map({$0.removeFromSuperview()})
+            containerView.addSubview(stutis.view)
+        }
+        else if index == 4 {
+            containerView.subviews.map({$0.removeFromSuperview()})
+            containerView.addSubview(kaivalyouth.view)
+        }
+        else if index == 5 {
+            containerView.subviews.map({$0.removeFromSuperview()})
+            containerView.addSubview(aboutus.view)
+        }
+        else if index == 6 {
+            containerView.subviews.map({$0.removeFromSuperview()})
+            containerView.addSubview(newsletter.view)
+        }
+        else if index == 7 {
+            containerView.subviews.map({$0.removeFromSuperview()})
+            containerView.addSubview(mandirnews.view)
+        }
+        else if index == 8 {
+            containerView.subviews.map({$0.removeFromSuperview()})
+            containerView.addSubview(activelife.view)
+        }
+        
+
+
+        
         
     }
     
