@@ -20,6 +20,12 @@ class HomeViewController: UIViewController {
         
         
         
+        let testFrame : CGRect = CGRectMake(0,200,320,200)
+        var testView : UIView = UIView(frame: testFrame)
+        testView.backgroundColor = UIColor(red: 1.5, green: 0, blue: 0.0, alpha: 0.0)
+        testView.alpha=0.5
+        self.view.addSubview(testView)
+        
         var dynamicLabel: UILabel = UILabel()
         dynamicLabel.frame = CGRectMake(0, 25, self.view.frame.size.width, 21)
         dynamicLabel.backgroundColor = UIColor.orangeColor()
