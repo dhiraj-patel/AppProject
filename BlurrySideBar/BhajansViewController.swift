@@ -8,11 +8,12 @@
 
 import UIKit
 
-class BhajansViewController: UIViewController {
 
-    override func viewDidLoad() {
+class BhajansViewController: UIViewController {
+        
+    
+        override func viewDidLoad() {
 		super.viewDidLoad()
-		
 		self.view.backgroundColor = UIColor.lightGrayColor()
 
         // Do any additional setup after loading the view.
@@ -24,6 +25,9 @@ class BhajansViewController: UIViewController {
     }
     
 
+    
+    
+    
     /*
     // MARK: - Navigation
 

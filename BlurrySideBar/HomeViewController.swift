@@ -20,11 +20,7 @@ class HomeViewController: UIViewController {
         
         
         
-        let testFrame : CGRect = CGRectMake(0,200,320,200)
-        var testView : UIView = UIView(frame: testFrame)
-        testView.backgroundColor = UIColor(red: 1.5, green: 0, blue: 0.0, alpha: 0.0)
-        testView.alpha=0.5
-        self.view.addSubview(testView)
+        
         
         var dynamicLabel: UILabel = UILabel()
         dynamicLabel.frame = CGRectMake(0, 25, self.view.frame.size.width, 21)
@@ -37,9 +33,35 @@ class HomeViewController: UIViewController {
                 // Do any additional setup after loading the view.
         
         var myTextField: UITextField = UITextField()
-        myTextField.frame = CGRectMake(0, 425, self.view.frame.size.width, 21)
-        myTextField.text = "hello world"
+        myTextField.frame = CGRectMake(0, 300, self.view.frame.size.width, 21)
+        myTextField.text = "Swipe right to navigate!"
+        myTextField.backgroundColor = UIColor.redColor()
+        myTextField.textAlignment = NSTextAlignment.Center
+        myTextField.font = UIFont(name: "Heiti SC", size: 20.0)
         self.view.addSubview(myTextField)
+        
+        
+        var fbIcon : UIImageView
+        fbIcon  = UIImageView(frame:CGRectMake(45, 575,50,50))
+        fbIcon.image = UIImage(named:"fbIcon")
+        self.view.addSubview(fbIcon)
+        
+        var twitIcon : UIImageView
+        twitIcon  = UIImageView(frame:CGRectMake(120, 575,50,50))
+        twitIcon.image = UIImage(named:"twitterIcon")
+        self.view.addSubview(twitIcon)
+        
+        var instaIcon : UIImageView
+        instaIcon  = UIImageView(frame:CGRectMake(195, 575,50,50))
+        instaIcon.image = UIImage(named:"instaIcon")
+        self.view.addSubview(instaIcon)
+        
+        var youtubeIcon : UIImageView
+        youtubeIcon  = UIImageView(frame:CGRectMake(270, 575,50,50))
+        youtubeIcon.image = UIImage(named:"youtubeIcon")
+        self.view.addSubview(youtubeIcon)
+   
+        
     }
 
     override func didReceiveMemoryWarning() {

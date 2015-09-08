@@ -24,6 +24,8 @@
 		A80ACEE31B8BFA9F00923D6B /* BlurrySideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80ACEE21B8BFA9F00923D6B /* BlurrySideBarTests.swift */; };
 		A80ACEED1B8BFB4300923D6B /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80ACEEC1B8BFB4300923D6B /* SideBarTableViewController.swift */; };
 		A88433831B8C091400F08C40 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88433821B8C091400F08C40 /* SideBar.swift */; };
+		A8BB80221B9D050300997B6C /* sandhya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8BB80211B9D050300997B6C /* sandhya.mp3 */; };
+		A8ED4EAD1B9AA44A009CD31B /* mangala.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A8ED4EAC1B9AA44A009CD31B /* mangala.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		A80ACEE21B8BFA9F00923D6B /* BlurrySideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurrySideBarTests.swift; sourceTree = "<group>"; };
 		A80ACEEC1B8BFB4300923D6B /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
 		A88433821B8C091400F08C40 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideBar.swift; path = ../SideBar.swift; sourceTree = "<group>"; };
+		A8BB80211B9D050300997B6C /* sandhya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sandhya.mp3; sourceTree = "<group>"; };
+		A8ED4EAC1B9AA44A009CD31B /* mangala.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mangala.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +113,9 @@
 				A80ACECA1B8BFA9F00923D6B /* Supporting Files */,
 				0A36BDB21B917BB800357A6F /* HomeViewController.swift */,
 				0A36BDB41B917BD200357A6F /* UpasanasViewController.swift */,
+				A8ED4EAC1B9AA44A009CD31B /* mangala.mp4 */,
 				0A36BDB61B917BE400357A6F /* BhajansViewController.swift */,
+				A8BB80211B9D050300997B6C /* sandhya.mp3 */,
 				A801C3441B929130008BC64F /* StutisViewController.swift */,
 				A801C3481B9295EE008BC64F /* KaivalYouthViewController.swift */,
 				A801C34A1B92964F008BC64F /* AboutUsViewController.swift */,
@@ -225,9 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BB80221B9D050300997B6C /* sandhya.mp3 in Resources */,
 				A80ACED21B8BFA9F00923D6B /* Main.storyboard in Resources */,
 				A80ACED71B8BFA9F00923D6B /* LaunchScreen.xib in Resources */,
 				A80ACED41B8BFA9F00923D6B /* Images.xcassets in Resources */,
+				A8ED4EAD1B9AA44A009CD31B /* mangala.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
