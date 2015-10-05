@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import AVFoundation
 
 class StutisViewController: UIViewController {
+    
+    var audio: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.redColor()
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
