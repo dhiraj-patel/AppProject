@@ -14,7 +14,6 @@ class UpasanasViewController: UIViewController, UIWebViewDelegate{
     
     
     var audio: AVAudioPlayer?
-    var scrollView: UIScrollView!
     
 
     override func viewDidLoad() {
@@ -308,12 +307,12 @@ class UpasanasViewController: UIViewController, UIWebViewDelegate{
         self.view.addSubview(sandhya7_stop)
         
         
-        var webV:UIWebView = UIWebView(frame: CGRectMake(0, 550, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height))
+        var webV:UIWebView = UIWebView(frame: CGRectMake(0, 350, 50,50))
         webV.loadRequest(NSURLRequest(URL: NSURL(string: "http://www.jogendra.com")!))
         webV.delegate = self;
         self.view.addSubview(webV)
         
-        
+        /*
         scrollView = UIScrollView(frame: view.bounds)
         scrollView.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
         scrollView.addSubview(maherLabel)
@@ -356,7 +355,7 @@ class UpasanasViewController: UIViewController, UIWebViewDelegate{
         
         
         view.addSubview(scrollView)
-    
+    */
     }
 
     override func didReceiveMemoryWarning() {
